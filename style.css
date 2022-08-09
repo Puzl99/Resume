@@ -19,18 +19,11 @@ h2 {
     padding-bottom: 1em;
 }
 
-h3 {
-    font-size: 1em;
-    padding-bottom: 1em;
-}
-
 main { 
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    grid-gap: 1em;
+    grid-template-columns: 40% 60%;
     margin-top: 3em;
 }
-
 header {
     text-align: center;
     margin: auto 2em;
@@ -44,7 +37,6 @@ i {
     margin-right: .5em;
 }
 
-
 p {
     margin: .2em auto
 }
@@ -55,12 +47,11 @@ hr {
     height: 1px;
 }
 
-@media (min-width: 1000px){
-    #mainLeft {
-        border-right: 1px solid lightgray;
-    }
+h1, h2, h3 {
+    font-weight: 100;
+    margin-bottom: 0;
 }
-
 #mainLeft {
     border-right: 1px solid lightgray;
+}
 }
